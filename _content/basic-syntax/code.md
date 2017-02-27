@@ -6,20 +6,26 @@ To denote a word or phrase as code, enclose it in tick marks (`` ` ``).
 | -------- | ---- | --------------- |
 | ``At the command prompt, type `nano`.`` | `At the command prompt, type <code>nano</code> ` | At the command prompt, type `nano`. |
 
+If the word or phrase you want to denote as code includes a tick mark, enclose it in double tick marks (<code>``</code>).
+
+| Markdown | HTML | Rendered Output |
+| -------- | ---- | --------------- |
+| <code>``Use `code` in your Markdown file.``</code> | ``<code>Use `code` in your Markdown file.</code>`` | <code>Use `code` in your Markdown file.</code> |
+
 #### Code Blocks
 
 To create code blocks, indent every line of the block by at least four spaces or one tab.
 
 ```
-    html
-      head
-      /head
-    /html
+    <html>
+      <head>
+      </head>
+    </html>
 ```
 
 The rendered output looks like this:
 
-    html
-      head
-      /head
-    /html
+    <html>
+      <head>
+      </head>
+    </html>
