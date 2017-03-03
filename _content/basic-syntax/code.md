@@ -29,3 +29,7 @@ The rendered output looks like this:
       <head>
       </head>
     </html>
+
+<div class="alert alert-info">
+  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> For a different way of creating code blocks, see <a href="#fenced-code-blocks">fenced code blocks</a>.
+</div>
