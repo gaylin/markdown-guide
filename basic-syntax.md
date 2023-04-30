@@ -1,25 +1,32 @@
 ---
 layout: default
 title: Basic Syntax
-description: The Markdown elements outlined in John Gruber's design document.
+description: The Markdown elements outlined in the original design document.
+last_modified_at: 2023-04-22
 ---
 
-{% include_relative _content/basic-syntax/overview.md %}
+{% include syntax.html type="basic" syntax-id="overview" %}
 
-{% include_relative _content/basic-syntax/headings.md %}
+{% include syntax.html type="basic" syntax-id="headings" %}
 
-{% include_relative _content/basic-syntax/paragraphs.md %}
+{% include syntax.html type="basic" syntax-id="paragraphs" %}
 
-{% include_relative _content/basic-syntax/emphasis.md %}
+{% include syntax.html type="basic" syntax-id="line-breaks" %}
 
-{% include_relative _content/basic-syntax/blockquotes.md %}
+{% include syntax.html type="basic" syntax-id="emphasis" %}
 
-{% include_relative _content/basic-syntax/lists.md %}
+{% include syntax.html type="basic" syntax-id="blockquotes" %}
 
-{% include_relative _content/basic-syntax/code.md %}
+{% include syntax.html type="basic" syntax-id="lists" %}
 
-{% include_relative _content/basic-syntax/horizontal-rules.md %}
+{% include syntax.html type="basic" syntax-id="code" %}
 
-{% include_relative _content/basic-syntax/links.md %}
+{% include syntax.html type="basic" syntax-id="horizontal-rules" %}
 
-{% include_relative _content/basic-syntax/images.md %}
+{% include syntax.html type="basic" syntax-id="links" %}
+
+{% include syntax.html type="basic" syntax-id="images" %}
+
+{% include syntax.html type="basic" syntax-id="escaping-characters" %}
+
+{% include syntax.html type="basic" syntax-id="html" %}
